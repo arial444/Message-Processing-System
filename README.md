@@ -57,3 +57,7 @@ in the Redis server you wont be able to see the saved number because it's save a
 * (http://localhost:5002/api/ServiceC)
 
 in the last service again we making another API call that make another API call to ServiceA that generate the number and then get multiplied and cached in ServiceB and finally we getting this cache from the Redis server and reveal him in the endpoint with is the website instead of terminal.
+
+## Adittions
+
+if i had more time i would definitely add terminal and complete the task as it should be, i would also seperate and simplify the controllers of the microservice to one liners for more clean code and i would try to figure out about a better way rather than use API calls to communicate between the microservices because it isn's felt the official way to do that.
